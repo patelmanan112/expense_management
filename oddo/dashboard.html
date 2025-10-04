@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h2>Welcome <span id="userName"></span> (<span id="userRole"></span>)</h2>
+  <h3>Company: <span id="companyName"></span> | Currency: <span id="companyCurrency"></span></h3>
   <button onclick="logout()">Logout</button>
 
-  <div class="container">
-    <h3>Add Expense</h3>
-    <form id="form">
-      <input type="text" id="text" placeholder="Enter Text...." />
-      <input type="number" id="amount" placeholder="Enter Amount..." />
-      <button>Add Transaction</button>
-    </form>
-
-    <h3>Expenses</h3>
-    <ul id="list"></ul>
-  </div>
+  <div id="adminPanel" class="container"></div>
+  <div id="managerPanel" class="container"></div>
+  <div id="employeePanel" class="container"></div>
 
   <script src="script.js"></script>
 </body>

@@ -1,52 +1,27 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f2f2f2;
-  margin: 0;
+  background: #f9f9f9;
   padding: 20px;
 }
 
 .container {
   background: white;
   padding: 20px;
+  margin: 20px auto;
   border-radius: 10px;
-  width: 400px;
-  margin: auto;
-}
-
-h2, h3 {
-  text-align: center;
-}
-
-input, select, button {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 8px;
+  width: 500px;
 }
 
 button {
-  background: #333;
-  color: white;
-  border: none;
+  margin: 5px;
+  padding: 6px 10px;
   cursor: pointer;
 }
 
-button:hover {
-  background: #555;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-  padding: 8px;
-  background: #eee;
-  border-radius: 5px;
-}
-#signupName , #signupEmail , #signupPass{
-    height: 40px;
-    width: 500px;
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
 }
